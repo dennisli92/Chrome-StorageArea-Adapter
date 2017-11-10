@@ -1,0 +1,40 @@
+{
+  "name": "chrome-storagearea-adapter",
+  "version": "1.0.0",
+  "description": "For use with redux-localstorage@rc",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w "
+  },
+  "dependencies": {
+    "redux-localstorage": "^1.0.0-rc5"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.52",
+    "@types/redux-localstorage": "^1.0.7",
+    "typescript": "^2.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dennisli92/Chrome-StorageArea-Adapter.git"
+  },
+  "keywords": [
+    "Redux",
+    "Persist",
+    "Immutable",
+    "storage",
+    "localStorage",
+    "sessionStorage",
+    "AsyncStorage",
+    "localForage",
+    "LevelDB"
+  ],
+  "author": "Dennis Li <dev.dennisli@gmail.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/dennisli92/Chrome-StorageArea-Adapter/issues"
+  },
+  "homepage": "https://github.com/dennisli92/Chrome-StorageArea-Adapter#readme"
+}
